@@ -1,0 +1,41 @@
+#loaderLogin {
+       
+ 
+    -webkit-animation: 2s rotate linear infinite;
+    animation: 2s girarImg linear infinite;
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+
+@keyframes girarImg {
+    0% {
+        transform: rotate(0);
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+      }
+      50% {
+        transform: rotate(90deg);
+        animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+      }
+      100% {
+        transform: rotate(180deg);
+      }
+    }
+
+    .form-control:focus{
+      border: 2px solid #00903c !important;
+     } 
+
+     label{
+       color: #00903c !important;
+     }
+  .body-login {
+    /* background: url(../img/bg.jpg) !important; */
+    background-size: cover !important;
+    transition: background .3s ease  !important;
+    background-position: center center  !important;
+    background-repeat: no-repeat  !important;
+    background-attachment: fixed  !important; 
+    background-color: #464646  !important;
+    
+}  

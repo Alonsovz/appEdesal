@@ -1,0 +1,43 @@
+a{
+    font-size: 13px;
+    color: black;
+    text-align: left !important;
+    font-weight: bold;
+}
+
+.menu:hover{
+    font-size: 13px;
+    color: black;
+    text-align: left !important;
+    font-weight: bold;  
+}
+
+.btnSalir {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 13px;
+    text-align: center !important;
+  }
+  
+
+  .btnSalir:hover {
+    border-color: #00903c;
+    color: #00903c;
+  }
+
+  /* Green */
+  .success {
+    border-color: #00903c;
+    color: #00903c;
+  }
+
+
+  .imgMenu{
+    right: 0 !important;
+     float: right !important;
+    width: 20px;
+    margin-top: 5px;
+     margin-right: -10px;
+  }
